@@ -1,21 +1,21 @@
 
 var CACHE_STATIC_NAME = 'static-v4';
 // var CACHE_DYNAMIC_NAME = 'dynamic-v2';
-const urlsToCache = [           
-    '/', 
-'/ws',
-'/static/js/bundle.js',
-'/manifest.json',
-'/favicon.ico',
-'/index.html', 
-'/images/icons/app-icon-48x48.png',
-"/images/icons/app-icon-96x96.png",
-'/images/icons/app-icon-144x144.png',
-"/images/icons/app-icon-192x192.png", 
-"/images/icons/app-icon-256x256.png",
-"/images/icons/app-icon-384x384.png",
-"/images/icons/app-icon-512x512.png", 
-];
+// const urlsToCache = [           
+//     '/', 
+// '/ws',
+// '/static/js/bundle.js',
+// '/manifest.json',
+// '/favicon.ico',
+// '/index.html', 
+// '/images/icons/app-icon-48x48.png',
+// "/images/icons/app-icon-96x96.png",
+// '/images/icons/app-icon-144x144.png',
+// "/images/icons/app-icon-192x192.png", 
+// "/images/icons/app-icon-256x256.png",
+// "/images/icons/app-icon-384x384.png",
+// "/images/icons/app-icon-512x512.png", 
+// ];
 
 // const self = this;
 
@@ -47,6 +47,24 @@ self.addEventListener('install', function(event) {
           "/images/icons/app-icon-256x256.png",
           "/images/icons/app-icon-384x384.png",
           "/images/icons/app-icon-512x512.png",
+          '/test6/', 
+          // '/home.js',
+          '/test6/home',
+          '/test6/comp1',
+          '/test6',
+          '/test6/',
+          '/test6/ws',
+          '/test6/static/js/bundle.js',
+          '/test6/manifest.json',
+          '/test6/favicon.ico',
+          '/test6/index.html', 
+          '/test6/images/icons/app-icon-48x48.png',
+          "/test6/images/icons/app-icon-96x96.png",
+          '/test6/images/icons/app-icon-144x144.png',
+          "/test6/images/icons/app-icon-192x192.png", 
+          "/test6/images/icons/app-icon-256x256.png",
+          "/test6/images/icons/app-icon-384x384.png",
+          "/test6/images/icons/app-icon-512x512.png",
 
         //   '/src/App.js',
         //   '/src/App.css',
