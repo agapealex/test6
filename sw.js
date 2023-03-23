@@ -33,6 +33,7 @@ self.addEventListener('install', function(event) {
           // '/home.js',
           '/home',
           '/comp1',
+          '/test6',
           '/ws',
           '/static/js/bundle.js',
           '/manifest.json',
