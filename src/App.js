@@ -64,7 +64,7 @@ function MobileNavigation() {
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter  basename="/test6">
         <BrowserView>
           <DesktopNavigation />
         </BrowserView>
