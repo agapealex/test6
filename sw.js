@@ -31,8 +31,8 @@ self.addEventListener('install', function(event) {
         cache.addAll([
           // '/', 
           // // '/home.js',
-          // '/home',
-          // '/comp1',
+          'https://agapealex.github.io/test6/home',
+          'https://agapealex.github.io/test6/comp1',
           // // '/test6',
           // // '/test6/',
           // '/ws',
