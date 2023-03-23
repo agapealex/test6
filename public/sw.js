@@ -71,7 +71,7 @@ self.addEventListener('install', function(event) {
         //   '/src/App.css',
         //   '/src/index.js',
         //   '/src/index.css',
-        //   '/manifest.json',
+          'https://agapealex.github.io/test6/manifest.json',
         //   '/setupTests.js',
           
 
