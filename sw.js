@@ -31,8 +31,7 @@ self.addEventListener('install', function(event) {
         cache.addAll([
           // '/', 
           // // '/home.js',
-          // 'https://agapealex.github.io/test6/home',
-          // 'https://agapealex.github.io/test6/comp1',
+
           // // '/test6',
           // // '/test6/',
           // '/ws',
@@ -58,7 +57,9 @@ self.addEventListener('install', function(event) {
           // 'https://agapealex.github.io/test6/static/js/bundle.js',
           // '/test6/manifest.json',
           'https://agapealex.github.io/test6/favicon.ico',
-          'https://agapealex.github.io/test6/index.html', 
+          'https://agapealex.github.io/test6/index.html',
+          'https://agapealex.github.io/test6/home',
+          'https://agapealex.github.io/test6/comp1.js', 
           'https://agapealex.github.io/test6/images/icons/app-icon-48x48.png',
           "https://agapealex.github.io/test6/images/icons/app-icon-96x96.png",
           'https://agapealex.github.io/test6/images/icons/app-icon-144x144.png',
