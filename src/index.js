@@ -22,8 +22,8 @@ root.render(
 );
 // swDev();
 
-// if ("serviceWorker" in navigator) {
-//   swDev();
-// }
+if ("serviceWorker" in navigator) {
+  swDev();
+}
 
 // sw.register();
