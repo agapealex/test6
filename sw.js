@@ -66,6 +66,10 @@ self.addEventListener('install', function(event) {
           "https://agapealex.github.io/test6/images/icons/app-icon-256x256.png",
           "https://agapealex.github.io/test6/images/icons/app-icon-384x384.png",
           "https://agapealex.github.io/test6/images/icons/app-icon-512x512.png",
+          "https://agapealex.github.io/test6/static/js/main.8f660a3a.js",
+          "https://agapealex.github.io/test6/static/css/main.6a9bb63a.css",
+          
+          
 
         //   '/src/App.js',
         //   '/src/App.css',
