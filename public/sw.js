@@ -55,7 +55,7 @@ self.addEventListener('install', function(event) {
           // '/test6',
           // '/test6/',
           'https://agapealex.github.io/test6/ws',
-          'https://agapealex.github.io/test6/static/js/bundle.js',
+          // 'https://agapealex.github.io/test6/static/js/bundle.js',
           // '/test6/manifest.json',
           'https://agapealex.github.io/test6/favicon.ico',
           'https://agapealex.github.io/test6/index.html', 
