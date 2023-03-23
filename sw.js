@@ -55,7 +55,7 @@ self.addEventListener('install', function(event) {
           // '/test6/',
           // '/test6/ws',
           // '/test6/static/js/bundle.js',
-          '/test6/manifest.json',
+          // '/test6/manifest.json',
           // '/test6/favicon.ico',
           // '/test6/index.html', 
           // '/test6/images/icons/app-icon-48x48.png',
