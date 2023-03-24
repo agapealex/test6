@@ -72,7 +72,7 @@ function App() {
           <MobileNavigation />
         </MobileView>
         <Routes>
-          <Route path="home" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="comp1" element={<Comp1 />} />
         </Routes>
       </BrowserRouter>
