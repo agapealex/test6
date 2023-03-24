@@ -123,7 +123,9 @@ self.addEventListener('fetch', function(event) {
       .then(function(response) {
         if (response) {
           return response;
-        } 
+        } else {
+          return fetch(event.request);
+        }
         // else {
         //   return fetch(event.request)
         //     .then(function(res) {
