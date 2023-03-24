@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, redirect } from "react-router-dom";
 import Comp1 from "./components/comp1/comp1";
 import Home from "./components/home/home";
 import Header from "./components/header/header";
@@ -73,7 +73,10 @@ function App() {
         </MobileView>
         <Switch>
           <Route exact path="/">
-            <Redirect to="/home" />
+          {() => {
+            navigate('/home');
+            return null;
+          }}
           </Route>
           <Route path="home" element={<Home />} />
           <Route path="comp1" element={<Comp1 />} />
