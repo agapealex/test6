@@ -13,6 +13,8 @@ const store = configureStore({
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
+fetch("https://node-test-production-7782.up.railway.app/").then(resp => console.log(resp,"++++"))
+
 root.render(
   <React.StrictMode>
     <Provider store={store}>

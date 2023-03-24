@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { BrowserRouter, Switch, Route, redirect } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Comp1 from "./components/comp1/comp1";
 import Home from "./components/home/home";
 import Header from "./components/header/header";
@@ -64,23 +64,17 @@ function MobileNavigation() {
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/test6">
+      <BrowserRouter  basename="/test6">
         <BrowserView>
           <DesktopNavigation />
         </BrowserView>
         <MobileView>
           <MobileNavigation />
         </MobileView>
-        <Switch>
-          <Route exact path="/">
-          {() => {
-            navigate('/home');
-            return null;
-          }}
-          </Route>
+        <Routes>
           <Route path="home" element={<Home />} />
           <Route path="comp1" element={<Comp1 />} />
-        </Switch>
+        </Routes>
       </BrowserRouter>
     </div>
   );
