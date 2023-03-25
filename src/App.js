@@ -21,7 +21,7 @@ function DesktopNavigation() {
 }
 
 function MobileNavigation() {
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -63,8 +63,8 @@ function MobileNavigation() {
 
 function App() {
 
-  const sttate = useState({beMessage: ""})
-  fetch("https://node-test-production-7782.up.railway.app/home").then(resp => resp.json()).then(resp => {setState({beMessage: resp.message})}).catch(err => console.log(err,"erroareee"))
+  const [st, setSt] = useState({beMessage: ""})
+  fetch("https://node-test-production-7782.up.railway.app/home").then(resp => resp.json()).then(resp => {setSt({beMessage: resp.message})}).catch(err => console.log(err,"erroareee"))
   
   return (
     <div className="App">
@@ -81,7 +81,7 @@ function App() {
         </Routes>
       </BrowserRouter>
 
-      <h1>{sttate.beMessage}</h1>
+      <h1>{st.beMessage}</h1>
     </div>
   );
 }
