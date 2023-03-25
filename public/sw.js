@@ -128,6 +128,7 @@ self.addEventListener('fetch', function(event) {
           return response;
         } 
         else {
+          console.log(event.request, "event.request")
           return fetch(event.request, { mode: 'no-cors' });
         }
         // else {
