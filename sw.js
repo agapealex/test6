@@ -127,9 +127,9 @@ self.addEventListener('fetch', function(event) {
         if (response) {
           return response;
         } 
-        // else {
-        //   return fetch(event.request);
-        // }
+        else {
+          return fetch(event.request);
+        }
         // else {
         //   return fetch(event.request)
         //     .then(function(res) {
