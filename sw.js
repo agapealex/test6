@@ -129,7 +129,7 @@ self.addEventListener('fetch', function(event) {
         } 
         else {
           console.log(event.request, "event.request")
-          return fetch(event.request, { mode: 'no-cors' });
+          return fetch(event.request);
         }
         // else {
         //   return fetch(event.request)
