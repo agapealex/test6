@@ -13,7 +13,7 @@ const store = configureStore({
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-fetch("https://node-test-production-7782.up.railway.app/", { mode: 'no-cors' }).then(resp => console.log(resp,"++++"))
+fetch("https://node-test-production-7782.up.railway.app/", { mode: 'no-cors' }).then(resp => resp.json()).then(resp => console.log(resp,"++++"))
 
 root.render(
   <React.StrictMode>
