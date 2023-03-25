@@ -7,13 +7,12 @@ import { Provider } from 'react-redux';
 import { configureStore } from "@reduxjs/toolkit";
 import rootReducer from "./reducers/rootReducer";
 
+
 const store = configureStore({
   reducer: rootReducer,
 });
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-
-fetch("https://node-test-production-7782.up.railway.app/home").then(resp => resp.json()).then(resp => console.log(resp,"++++")).catch(err => console.log(err,"erroareee"))
 
 root.render(
   <React.StrictMode>

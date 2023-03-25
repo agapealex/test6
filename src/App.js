@@ -1,5 +1,5 @@
 import "./App.css";
-import React from "react";
+import React, {useState} from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Comp1 from "./components/comp1/comp1";
 import Home from "./components/home/home";
@@ -62,6 +62,10 @@ function MobileNavigation() {
 }
 
 function App() {
+
+  const sttate = useState({beMessage: ""})
+  fetch("https://node-test-production-7782.up.railway.app/home").then(resp => resp.json()).then(resp => {setState({beMessage: resp.message})}).catch(err => console.log(err,"erroareee"))
+  
   return (
     <div className="App">
       <BrowserRouter  basename="/test6">
@@ -76,6 +80,8 @@ function App() {
           <Route path="comp1" element={<Comp1 />} />
         </Routes>
       </BrowserRouter>
+
+      <h1>{sttate.beMessage}</h1>
     </div>
   );
 }
