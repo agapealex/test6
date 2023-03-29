@@ -1,5 +1,5 @@
 import "./App.css";
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Comp1 from "./components/comp1/comp1";
 import Home from "./components/home/home";
@@ -62,13 +62,17 @@ function MobileNavigation() {
 }
 
 function App() {
+  const [st, setSt] = useState({ beMessage: "" });
+  fetch("https://node-test-production-7782.up.railway.app/home")/////
+    .then((resp) => resp.json())
+    .then((resp) => {
+      setSt({ beMessage: resp.message });
+    })
+    .catch((err) => console.log(err, "erroareee"));
 
-  const [st, setSt] = useState({beMessage: ""})
-  fetch("https://node-test-production-7782.up.railway.app/home").then(resp => resp.json()).then(resp => {setSt({beMessage: resp.message})}).catch(err => console.log(err,"erroareee"))
-  
   return (
     <div className="App">
-      <BrowserRouter  basename="/test6">
+      <BrowserRouter basename="/test6">
         <BrowserView>
           <DesktopNavigation />
         </BrowserView>
