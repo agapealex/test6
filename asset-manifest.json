@@ -1,13 +1,13 @@
 {
-  "main.css": "$%7BREACT_APP_HOMEPAGE%7D/static/css/main.f760a7ea.chunk.css",
-  "main.js": "$%7BREACT_APP_HOMEPAGE%7D/static/js/main.51a29cad.chunk.js",
-  "main.js.map": "$%7BREACT_APP_HOMEPAGE%7D/static/js/main.51a29cad.chunk.js.map",
-  "runtime~main.js": "$%7BREACT_APP_HOMEPAGE%7D/static/js/runtime~main.e0116690.js",
-  "runtime~main.js.map": "$%7BREACT_APP_HOMEPAGE%7D/static/js/runtime~main.e0116690.js.map",
-  "static/js/2.f39619f7.chunk.js": "$%7BREACT_APP_HOMEPAGE%7D/static/js/2.f39619f7.chunk.js",
-  "static/js/2.f39619f7.chunk.js.map": "$%7BREACT_APP_HOMEPAGE%7D/static/js/2.f39619f7.chunk.js.map",
-  "index.html": "$%7BREACT_APP_HOMEPAGE%7D/index.html",
-  "precache-manifest.3f2247e706f95c4667d23be38a3772e3.js": "$%7BREACT_APP_HOMEPAGE%7D/precache-manifest.3f2247e706f95c4667d23be38a3772e3.js",
-  "service-worker.js": "$%7BREACT_APP_HOMEPAGE%7D/service-worker.js",
-  "static/css/main.f760a7ea.chunk.css.map": "$%7BREACT_APP_HOMEPAGE%7D/static/css/main.f760a7ea.chunk.css.map"
+  "main.css": "/test6/static/css/main.f760a7ea.chunk.css",
+  "main.js": "/test6/static/js/main.c8e0adfb.chunk.js",
+  "main.js.map": "/test6/static/js/main.c8e0adfb.chunk.js.map",
+  "runtime~main.js": "/test6/static/js/runtime~main.17b319f6.js",
+  "runtime~main.js.map": "/test6/static/js/runtime~main.17b319f6.js.map",
+  "static/js/2.ca3cdb76.chunk.js": "/test6/static/js/2.ca3cdb76.chunk.js",
+  "static/js/2.ca3cdb76.chunk.js.map": "/test6/static/js/2.ca3cdb76.chunk.js.map",
+  "index.html": "/test6/index.html",
+  "precache-manifest.031b9cfa6855ec53a624586edf0ac2f3.js": "/test6/precache-manifest.031b9cfa6855ec53a624586edf0ac2f3.js",
+  "service-worker.js": "/test6/service-worker.js",
+  "static/css/main.f760a7ea.chunk.css.map": "/test6/static/css/main.f760a7ea.chunk.css.map"
 }
