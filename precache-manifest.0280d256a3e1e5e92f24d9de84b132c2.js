@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "process.env.REACT_APP_HOMEPAGE/static/js/runtime~main.64684482.js"
   },
   {
-    "revision": "9f23d946232829cee668",
-    "url": "process.env.REACT_APP_HOMEPAGE/static/js/2.c80245fb.chunk.js"
+    "revision": "140691a5427fa79f852b",
+    "url": "process.env.REACT_APP_HOMEPAGE/static/js/2.070aceaa.chunk.js"
   },
   {
-    "revision": "91526ffba1ca9e24b185ccdc7b6890c7",
+    "revision": "ae49f1619bf120b9dbdc25b6d267b081",
     "url": "process.env.REACT_APP_HOMEPAGE/index.html"
   }
 ];
