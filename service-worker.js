@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "$%7BREACT_APP_HOMEPAGE%7D/precache-manifest.c2b8d3f01b9c8748888209597813e342.js"
+  "$%7BREACT_APP_HOMEPAGE%7D/precache-manifest.3f2247e706f95c4667d23be38a3772e3.js"
 );
 
 workbox.clientsClaim();
