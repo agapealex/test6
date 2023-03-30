@@ -3,7 +3,7 @@
   "name": "Xauto - auto Robert",
   "icons": [
     {
-      "src": "%REACT_APP_HOMEPAGE%/images/icons/app-icon-48x48.png",
+      "src": "${REACT_APP_HOMEPAGE}/images/icons/app-icon-48x48.png",
       "type": "image/png",
       "sizes": "48x48"
     },
@@ -38,7 +38,7 @@
       "sizes": "512x512"
     }
  ],
-  "start_url": "%REACT_APP_HOMEPAGE%/index.html",
+  "start_url": "${REACT_APP_HOMEPAGE}/index.html",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
