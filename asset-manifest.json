@@ -1,13 +1,13 @@
 {
-  "files": {
-    "main.css": "/test6/static/css/main.6a9bb63a.css",
-    "main.js": "/test6/static/js/main.f5126e53.js",
-    "index.html": "/test6/index.html",
-    "main.6a9bb63a.css.map": "/test6/static/css/main.6a9bb63a.css.map",
-    "main.f5126e53.js.map": "/test6/static/js/main.f5126e53.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.6a9bb63a.css",
-    "static/js/main.f5126e53.js"
-  ]
+  "main.css": "$%7BREACT_APP_HOMEPAGE%7D/static/css/main.f760a7ea.chunk.css",
+  "main.js": "$%7BREACT_APP_HOMEPAGE%7D/static/js/main.7dc71679.chunk.js",
+  "main.js.map": "$%7BREACT_APP_HOMEPAGE%7D/static/js/main.7dc71679.chunk.js.map",
+  "runtime~main.js": "$%7BREACT_APP_HOMEPAGE%7D/static/js/runtime~main.e0116690.js",
+  "runtime~main.js.map": "$%7BREACT_APP_HOMEPAGE%7D/static/js/runtime~main.e0116690.js.map",
+  "static/js/2.f39619f7.chunk.js": "$%7BREACT_APP_HOMEPAGE%7D/static/js/2.f39619f7.chunk.js",
+  "static/js/2.f39619f7.chunk.js.map": "$%7BREACT_APP_HOMEPAGE%7D/static/js/2.f39619f7.chunk.js.map",
+  "index.html": "$%7BREACT_APP_HOMEPAGE%7D/index.html",
+  "precache-manifest.c2b8d3f01b9c8748888209597813e342.js": "$%7BREACT_APP_HOMEPAGE%7D/precache-manifest.c2b8d3f01b9c8748888209597813e342.js",
+  "service-worker.js": "$%7BREACT_APP_HOMEPAGE%7D/service-worker.js",
+  "static/css/main.f760a7ea.chunk.css.map": "$%7BREACT_APP_HOMEPAGE%7D/static/css/main.f760a7ea.chunk.css.map"
 }
