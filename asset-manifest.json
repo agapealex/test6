@@ -1,13 +1,13 @@
 {
-  "main.css": "eval%20$(grep%20%27%5EREACT_APP_HOMEPAGE%27%20.env)/static/css/main.f760a7ea.chunk.css",
-  "main.js": "eval%20$(grep%20%27%5EREACT_APP_HOMEPAGE%27%20.env)/static/js/main.e65dfa80.chunk.js",
-  "main.js.map": "eval%20$(grep%20%27%5EREACT_APP_HOMEPAGE%27%20.env)/static/js/main.e65dfa80.chunk.js.map",
-  "runtime~main.js": "eval%20$(grep%20%27%5EREACT_APP_HOMEPAGE%27%20.env)/static/js/runtime~main.0a2e7970.js",
-  "runtime~main.js.map": "eval%20$(grep%20%27%5EREACT_APP_HOMEPAGE%27%20.env)/static/js/runtime~main.0a2e7970.js.map",
-  "static/js/2.0faaee7c.chunk.js": "eval%20$(grep%20%27%5EREACT_APP_HOMEPAGE%27%20.env)/static/js/2.0faaee7c.chunk.js",
-  "static/js/2.0faaee7c.chunk.js.map": "eval%20$(grep%20%27%5EREACT_APP_HOMEPAGE%27%20.env)/static/js/2.0faaee7c.chunk.js.map",
-  "index.html": "eval%20$(grep%20%27%5EREACT_APP_HOMEPAGE%27%20.env)/index.html",
-  "precache-manifest.8695ac74f93572c3fe8c73a1e796e826.js": "eval%20$(grep%20%27%5EREACT_APP_HOMEPAGE%27%20.env)/precache-manifest.8695ac74f93572c3fe8c73a1e796e826.js",
-  "service-worker.js": "eval%20$(grep%20%27%5EREACT_APP_HOMEPAGE%27%20.env)/service-worker.js",
-  "static/css/main.f760a7ea.chunk.css.map": "eval%20$(grep%20%27%5EREACT_APP_HOMEPAGE%27%20.env)/static/css/main.f760a7ea.chunk.css.map"
+  "main.css": "/test6/static/css/main.f760a7ea.chunk.css",
+  "main.js": "/test6/static/js/main.c8e0adfb.chunk.js",
+  "main.js.map": "/test6/static/js/main.c8e0adfb.chunk.js.map",
+  "runtime~main.js": "/test6/static/js/runtime~main.17b319f6.js",
+  "runtime~main.js.map": "/test6/static/js/runtime~main.17b319f6.js.map",
+  "static/js/2.528bfd39.chunk.js": "/test6/static/js/2.528bfd39.chunk.js",
+  "static/js/2.528bfd39.chunk.js.map": "/test6/static/js/2.528bfd39.chunk.js.map",
+  "index.html": "/test6/index.html",
+  "precache-manifest.ab83b9fe0fe3fe301c2cbe5be1457258.js": "/test6/precache-manifest.ab83b9fe0fe3fe301c2cbe5be1457258.js",
+  "service-worker.js": "/test6/service-worker.js",
+  "static/css/main.f760a7ea.chunk.css.map": "/test6/static/css/main.f760a7ea.chunk.css.map"
 }
