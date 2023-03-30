@@ -1,13 +1,13 @@
 {
-  "main.css": "process.env.REACT_APP_HOMEPAGE/static/css/main.f760a7ea.chunk.css",
-  "main.js": "process.env.REACT_APP_HOMEPAGE/static/js/main.fc5d00c7.chunk.js",
-  "main.js.map": "process.env.REACT_APP_HOMEPAGE/static/js/main.fc5d00c7.chunk.js.map",
-  "runtime~main.js": "process.env.REACT_APP_HOMEPAGE/static/js/runtime~main.64684482.js",
-  "runtime~main.js.map": "process.env.REACT_APP_HOMEPAGE/static/js/runtime~main.64684482.js.map",
-  "static/js/2.070aceaa.chunk.js": "process.env.REACT_APP_HOMEPAGE/static/js/2.070aceaa.chunk.js",
-  "static/js/2.070aceaa.chunk.js.map": "process.env.REACT_APP_HOMEPAGE/static/js/2.070aceaa.chunk.js.map",
-  "index.html": "process.env.REACT_APP_HOMEPAGE/index.html",
-  "precache-manifest.0280d256a3e1e5e92f24d9de84b132c2.js": "process.env.REACT_APP_HOMEPAGE/precache-manifest.0280d256a3e1e5e92f24d9de84b132c2.js",
-  "service-worker.js": "process.env.REACT_APP_HOMEPAGE/service-worker.js",
-  "static/css/main.f760a7ea.chunk.css.map": "process.env.REACT_APP_HOMEPAGE/static/css/main.f760a7ea.chunk.css.map"
+  "main.css": "$%7BREACT_APP_HOMEPAGE%7D/static/css/main.f760a7ea.chunk.css",
+  "main.js": "$%7BREACT_APP_HOMEPAGE%7D/static/js/main.51a29cad.chunk.js",
+  "main.js.map": "$%7BREACT_APP_HOMEPAGE%7D/static/js/main.51a29cad.chunk.js.map",
+  "runtime~main.js": "$%7BREACT_APP_HOMEPAGE%7D/static/js/runtime~main.e0116690.js",
+  "runtime~main.js.map": "$%7BREACT_APP_HOMEPAGE%7D/static/js/runtime~main.e0116690.js.map",
+  "static/js/2.e74903d2.chunk.js": "$%7BREACT_APP_HOMEPAGE%7D/static/js/2.e74903d2.chunk.js",
+  "static/js/2.e74903d2.chunk.js.map": "$%7BREACT_APP_HOMEPAGE%7D/static/js/2.e74903d2.chunk.js.map",
+  "index.html": "$%7BREACT_APP_HOMEPAGE%7D/index.html",
+  "precache-manifest.5217b42ab5180847e64f27e38897700e.js": "$%7BREACT_APP_HOMEPAGE%7D/precache-manifest.5217b42ab5180847e64f27e38897700e.js",
+  "service-worker.js": "$%7BREACT_APP_HOMEPAGE%7D/service-worker.js",
+  "static/css/main.f760a7ea.chunk.css.map": "$%7BREACT_APP_HOMEPAGE%7D/static/css/main.f760a7ea.chunk.css.map"
 }
