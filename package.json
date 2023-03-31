@@ -2,7 +2,7 @@
   "name": "test6",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://agapealex.github.io/test6/",
+  "homepage": "${REACT_APP_HOMEPAGE}",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
