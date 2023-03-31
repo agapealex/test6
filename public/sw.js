@@ -24,6 +24,8 @@ self.addEventListener('install', function(event) {
   console.log('[Service Worker] Installing Service Worker ...', event);
   const urlsToCache = [];
 
+  console.log(process.env.NODE_ENV,"~~~~~~~~~~~~~")
+
   if(process.env.NODE_ENV === 'production'){
     urlsToCache = [
       'https://agapealex.github.io/test6',//
