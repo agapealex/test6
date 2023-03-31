@@ -48,7 +48,7 @@ self.addEventListener("install", function (event) {
     ];
   } else {
     urlsToCache = [
-      "https://agapealex.github.io/test6", //
+      "https://agapealex.github.io/test6", // 
       "https://agapealex.github.io/test6/",
       `https://agapealex.github.io/test6/favicon.ico`,
       "https://agapealex.github.io/test6/index.html",
