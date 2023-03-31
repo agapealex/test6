@@ -21,7 +21,7 @@ var CACHE_STATIC_NAME = "static-v4";
 /* eslint-disable-next-line no-restricted-globals */
 self.addEventListener("install", function (event) {
   console.log("[Service Worker] Installing Service Worker ...", event);
-  const urlsToCache = [];
+  let urlsToCache = [];
 
   // console.log(process.env.NODE_ENV, "~~~~~~~~~~~~~");
 
