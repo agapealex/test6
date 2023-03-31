@@ -70,7 +70,7 @@ function App() {
   //   })
   //   .catch((err) => console.log(err, "erroareee"));
 
-  console.log(process.send.REACT_APP_HOMEPAGE, "%%%");
+  console.log(process.env.REACT_APP_HOMEPAGE, "%%%");
 
   return (
     <div className="App">
