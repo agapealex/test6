@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "$%7BREACT_APP_HOMEPAGE%7D/precache-manifest.24be1a61d7fa38161a6ef36c962dae52.js"
+  "/test6/precache-manifest.ebda8a5ff6e2c0553efd93f49ca061b2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("$%7BREACT_APP_HOMEPAGE%7D/index.html", {
+workbox.routing.registerNavigationRoute("/test6/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
