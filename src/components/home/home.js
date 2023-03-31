@@ -13,16 +13,16 @@ const Home = () => {
     return(
         <StyledHome>
             {/* <Slider/> */}
-            <p>Scopul nostru este de a crea o comunitate ce se ajuta reciproc in a descoperi persoanele ce profita de persoanele naive si le dau teapa</p>
+            <p> comunitate comunitate comunitate comunitate comunitate comunitate comunitate comunitate comunitate comunitate comunitate comunitate comunitate comunitate</p>
             <br/>
-            <p>Cu ajutorul comunitatii se vor posta diverse rapoarte ce vor dovedi problemele masinilor puse la vanzare</p>
+            <p> comunitate comunitate comunitate comunitate comunitate comunitate comunitate comunitate comunitate</p>
             <br/>
-            <p> Cum putem sa luam cat mai putina teapa ?</p>
-            <p>= Sa presupunem ca 10 persoane sunt tentate sa plateasca pentru un raport de pe RAR sau Carvertical. Daca unul din ei posteaza aici raportul ceilalti 9 vor scapa de a mai plati un raportul cu teapa.</p>
+            <p> comunitatev comunitate comunitate comunitate comunitate comunitate</p>
+            <p>=  comunitat comunitatev comunitate comunitate comunitate.</p>
             <br/>
-            <p>= Imediat ce o persoana adauga masina cu probleme, numarul de telefon al propritarului va intra pe lista neagra.</p>
-            <p>Asa, pe viitor, putem verifica un numar de telefon cu antecedente pe site si ne putem feri de noua lui masina cu potentiale probleme "reparate".</p>
-            <p>cunter : {countNumber}</p>
+            <p>= comunitate comunitate comunitate comunitate comunitate comunitate comunitate comunitate comunitate comunitate comunitate</p>
+            <p>A comunitate comunitate comunitate comunitate comunitate".</p>
+            <p>counter : {countNumber}</p>
             <button onClick={ () => dispatch(counter())}>cnt</button>
 
 
