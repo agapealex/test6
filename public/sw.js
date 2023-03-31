@@ -23,7 +23,7 @@ self.addEventListener("install", function (event) {
   console.log("[Service Worker] Installing Service Worker ...", event);
   const urlsToCache = [];
 
-  console.log(process.env.NODE_ENV, "~~~~~~~~~~~~~");
+  // console.log(process.env.NODE_ENV, "~~~~~~~~~~~~~");
 
   if (typeof process === "undefined") {
     urlsToCache = [
