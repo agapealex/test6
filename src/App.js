@@ -70,6 +70,8 @@ function App() {
   //   })
   //   .catch((err) => console.log(err, "erroareee"));
 
+  console.log(process.send.REACT_APP_HOMEPAGE, "%%%");
+
   return (
     <div className="App">
       <BrowserRouter basename="/test6">
