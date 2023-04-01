@@ -70,11 +70,12 @@ function App() {
   //   })
   //   .catch((err) => console.log(err, "erroareee"));
 
-  console.log(process.env, "%%%");
+  // console.log(process.env, "%%%");
 
   return (
     <div className="App">
-      <BrowserRouter basename="/test6">
+      <BrowserRouter >
+      {/* basename="/test6" */}
         <BrowserView>
           <DesktopNavigation />
         </BrowserView>
