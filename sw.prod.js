@@ -47,6 +47,7 @@ self.addEventListener("install", function (event) {
       "/images/icons/app-icon-512x512.png",
     ];
   } else {
+    console.log("------------+")
     urlsToCache = [
       "https://agapealex.github.io/test6", // 
       "https://agapealex.github.io/test6/",
@@ -61,7 +62,7 @@ self.addEventListener("install", function (event) {
       "https://agapealex.github.io/test6/images/icons/app-icon-512x512.png",
       "https://agapealex.github.io/test6/static/js/main.5de0eb06.js",
       "https://agapealex.github.io/test6/static/css/main.6a9bb63a.css",
-      "https://agapealex.github.io/test6/manifest.json",
+      "https://agapealex.github.io/test6/manifest.prod.json",
     ];
   }
   event.waitUntil(
@@ -144,7 +145,7 @@ self.addEventListener("fetch", function (event) {
       if (response) {
         return response;
       } else {
-        console.log(event.request, "event.request");
+        // console.log(event.request, "event.request");
         return fetch(event.request);
       }
       // else {
